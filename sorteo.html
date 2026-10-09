@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- declaracion de la web -->
+<html lang="es"> <!-- idioma de la web -->
+	<head> <!-- empiece de la cabecera -->
+		<link rel="icon" type="image/gif" href="imagenes/favicon.png"> <!-- icono de pestana -->
+		<link rel="stylesheet" href="estilos/estilos.css"> <!-- link interno de referencia para los estilos de la pagina -->
+		<title> Grand Prix de F1 de Mónaco </title> <!-- para que salga en la pestana del buscador -->
+		<meta charset="UTF-8"> <!-- formato del codigo -->
+		<meta name="titulo" content="Grand Prix de F1 de Mónaco"> <!-- nos ayuda con el SEO -->
+	</head> <!-- final de la cabecera -->
+	<body> <!-- cuerpo que contiene tanto titulo como menu como info extra y panel de navegacion -->
+		<header>
+			<h1> Grand Prix de F1 de Mónaco </h1>
+		</header>
+		<nav> <!-- barra de menu prinicpal que aloja las otras 5 hojas-->
+			<ul> 
+				<li> <a href="./index.html"> Menu principal </a> </li>
+				<li> <a href="./ubicacion.html"> Ubicación </a> </li>
+				<li> <a href="./circuito.html"> Circuito </a> </li>
+				<li> <a href="./piloto del dia.html"> Piloto del día </a> </li>
+				<li> <a href="./sorteo.html"> Entra en el sorteo de una entrada doble </a> </li>
+			</ul>    
+		</nav>
+		<img src="imagenes/sorteo.png" alt="imagensorteo" ></img>
+		<h2> Gana una entrada doble con acceso al paddock y conoce a tu ídolo </h2>
+		<form action="mailto:anprieto@ikaslea.birt.eus" method="post"> <!-- datos pertinentes para enviar email-->
+			<table border="1" height="150"> 
+				<tr>
+					<td>
+						Nombre: <input name="Nombre" type="text">
+						Apellidos: <input name="Apellidos" type="text">
+						E-mail: <input name="E-Mail" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Piloto favorito: </br>
+						<input name="Sector" type="radio">Fernando Alonso</br>
+						<input name="Sector" type="radio">Carlos Sainz</br>
+						<input name="Sector" type="radio">Lewis Hamilton</br>
+						<input name="Sector" type="radio">Du-du-du-du, Max Verstappen</br>
+						<input name="Sector" type="radio">Antonio Lobato</br>
+						<input name="Sector" type="radio">Fernando Alonso por supuesto</br>
+						<input name="Sector" type="radio">Cualquiera de los otros rookies
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="Enviar datos"><!-- Confirmar envio de datos-->
+        </form>     
+	</body> 	  	  
+</html>
